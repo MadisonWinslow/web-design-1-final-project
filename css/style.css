@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 *, *::before, *::after {
@@ -8,12 +10,16 @@ html {
 
 header {
     background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10em 0 10em;
+
 }
 
-header h2 {
+header span {
     color: white;
 }
-
 
 nav ul {
     list-style: none;
@@ -23,6 +29,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    padding: 0.5em .75em;
 }
 
 a.button {
@@ -30,17 +37,22 @@ a.button {
     color: white;
 }
 
-a.button:visited {
-    
+.herobanner {
+    width: 100%;
 }
 
-a
+a.button:visited {
+
+}
+
 body {
     font-family:'Open Sans', sans-serif;
+    margin: 0;
 }
 
 .wrapper {
     max-width: 1280px;
+    margin: 0 auto;
 }
 
 
