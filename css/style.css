@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10em 0 10em;
+    padding: 0 5em 0 5em;
 
 }
 
@@ -37,12 +37,23 @@ a.button {
     color: white;
 }
 
-.herobanner {
-    width: 100%;
+a.button:hover {
+    text-decoration: none;
+    color: white;
 }
 
 a.button:visited {
+    text-decoration: none;
+    color: white;
+}
 
+a.button:focus {
+    text-decoration: none;
+    color: white;
+}
+
+.herobanner {
+    width: 100%;
 }
 
 body {
@@ -53,6 +64,7 @@ body {
 .wrapper {
     max-width: 1280px;
     margin: 0 auto;
+    padding:  0 5em 0 5em;
 }
 
 #aboutme {
@@ -65,11 +77,29 @@ body {
 }
 
 h1 {
-    font-size: 2.5em;}
+    font-size: 2.5em;
+}
 
 h2 {
     font-size: 1.5em;
 }
 
+h3 {
+    text-align: center;
+}
+#service {
+    background-color: #FAFAFA; 
+}
 
+#mywork {
+    text-align: center;
+    padding: 0 0.5em 0 0.5em;
+}
 
+.one {
+    display: flex;
+}
+
+.two {
+    display: flex;
+}
