@@ -70,6 +70,7 @@ body {
 #aboutme {
     display: flex;
     align-items: center;
+    padding:  0 3em 0 3em;
 }
 
 #aboutme img {
@@ -88,12 +89,84 @@ h3 {
     text-align: center;
 }
 #service {
-    background-color: #FAFAFA; 
+    background-color: #FAFAFA;
+    max-width: fit-content; 
+}
+
+#services h3 {
+    text-align: center;
+    padding: 0;
+}
+
+#services h3 {
+    margin-top: 0;
+}
+
+.service-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 15em;
+    padding: 1em 2em 0 2em;
+}
+
+.logo-box {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: 0.125rem;
+    background-color: #ffffff;
+}
+.web-box {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: 0.125rem;
+    background-color: #ffffff;
+}
+
+.brand-box {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: o.125rem;
+    background-color: #ffffff;
+}
+
+#services a {
+    box-sizing: border-box;
+    margin: .5em;
+    padding: 1em;
+    border-radius: o.125rem;
+    background-color: #ffffff;
+}
+
+a.button2 {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.button2:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.button:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a.button2:focus {
+    text-decoration: none;
+    color: #ffffff; 
 }
 
 #mywork {
     text-align: center;
-    padding: 0 0.5em 0 0.5em;
+    padding: 5em 0 5em 0;
+}
+
+#mywork p {
+    padding: 0 17em 0 17em;
 }
 
 .one {
@@ -102,4 +175,68 @@ h3 {
 
 .two {
     display: flex;
+}
+
+#contactme {
+    text-align: center;
+    padding: 3em 17em 0 17em;
+}
+
+#contactme p { 
+    padding: 0 6em 0 6em;
+}
+
+#contactme img {
+    width: min-content;
+    padding: 0 0.3em 0 0.3em;
+    padding-top: 1.5em;
+}
+
+#quotes {
+    background-color: #000;
+    max-width: fit-content;
+    color: white;
+    margin: 0 auto;
+    padding: 4em 0 1em 0; 
+}
+
+#quotes h2 {
+    text-align:center;
+    padding: 0;
+}
+
+.quotes-square {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    height: 15em;
+    padding: 0em 3em 0em 3em;
+}
+
+.quote-box {
+    box-sizing: border-box;
+    padding: 0 2em 0 2em;
+    font-style: italic;
+}
+
+.quote-box1 {
+    box-sizing: border-box;
+    padding: 0 2em 0 2em;
+    font-style: italic;
+}
+
+.quote-square cite {
+    box-sizing: border-box;
+    color: #FAFAFA;
+    font-size: 2em;
+    font-style: normal;
+    padding: .5em .5em .5em 1em;
+}
+
+footer {
+    color: white;
+    background-color: #000;
+    margin: 0 0 0 0;
+    text-align: center;
+    padding: 10px 0 10px 0;
 }
